@@ -91,5 +91,22 @@ Tomcat started.
 Ура! Мы развернули веб-приложение, отобразили
 содержимое JSP-страницы.
 
+### Запуск приложения в IntelliJ Idea
+Расскажу, как собрать проект, используя IntelliJ Idea.
+1. Установить плагин Smart Tomcat (`Ctrl` + `Alt` + `S` 
+-> `Plugins` -> `Marketplace` -> `Smart Tomcat` -> `Install`).
+
+![plugin-tomcat.png](https://i.postimg.cc/LXF5X089/plugin-tomcat.png)
+
+2. Выбрать `Edit Configurations...`, а затем нажать `+`.
+3. В появившемся окне выбрать `Smart Tomcat`.
+4. Заполнить окно `Run/Debug Configurations`, а затем нажать
+`Apply` и `OK`.
+
+![run-edit.png](https://i.postimg.cc/RFDLYH1J/run-edit.png)
+5. Отлично! Веб-приложение можно запускать, используя кнопку `Run`.
+
+![run-app.png](https://i.postimg.cc/ZR46DLyq/run-app.png)
+
 ### Работа сервлета <a name="working-servlet"></a>
 ![Работа сервлета](images/work-servlet.png)
